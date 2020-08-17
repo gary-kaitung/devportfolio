@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="scss/styles.css" rel="stylesheet">
 </head>
 
 <body>
@@ -86,7 +86,56 @@
     </div>
     <!-- End #about -->
 
-    <div id="experience" class="background-alt">
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Data Science Tasks</h3>
+                        <p>
+                            To work on different applicable DS tasks including conversion rate optimization and AB testing.
+                        </p>
+                        
+                        <a href="#">View Project</a>
+
+                        <p>
+                            Tools: Python, Jupyter Notebook, Random Forest, SK-learn
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+    
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/google_landmark_detection.jpeg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Google Landmark Recognition 2019, Kaggle competition</h3>
+                        <p>
+                            Constructed CNN Resnet50 models to classify over 5M images into 200K classes with Keras and GCP; Scored top 30%
+                        </p>
+                        <a href="https://github.com/gary-kaitung/data-science-portfolio/tree/master/My%20ML%20projects/Google%20Landmark%20Recognition%20Competition%202019">View Project</a>
+
+                        <p>
+                            Tools: Python, Jupyter Notebook, GCP, Resnet50
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="experience">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
             <div data-date="March 2020 – Present">
@@ -115,7 +164,7 @@
                 <h3>Hong Kong Productivity Council</h3>
                 <h4>Engineer</h4>
                 <p>
-                    • Manage end-to-end consultancy projects; Solve problems with automation, forecasting models, IoT, digital transformation
+                    • Manage end-to-end consultancy projects; Solve problems with <strong>automation, forecasting models, IoT, digital transformation</strong>
                 </p>
                 <p>
                     • Built forecasting models for retail analysis with Python and plant simulation models for production line analysis
@@ -147,77 +196,48 @@
     </div>
     <!-- End #experience -->
 
-    <div id="education">
+    <div id="education" class="background-alt">
         <h2 class="heading">Education</h2>
+
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
+            <h3>Deep Learning Specialization</h3>
+            <span class="education-date">Apr 2019</span>
+            <h4>deeplearning.ai | Coursera</h4>
         </div>
         <!-- End .education-block -->
 
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
+            <h3>Machine Learning</h3>
+            <span class="education-date">Mar 2019</span>
+            <h4>Stanford University | Coursera</h4>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>University of Hong Kong</h3>
+            <span class="education-date">Sept 2012 - December 2015</span>
+            <h4>Bachelor of Engineering in Mechanical Engineering</h4>
             <ul>
                 <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Capstone Project - The Hong Kong and China Gas Company Limited (Towngas)
+                    <br/>
+                    Designed a non-destructive medium detector for gas pipelines; Analyszed the frequency data between gas and liquid
                 </li>
                 <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Research Project - Monforts Fong's Textile Machinery
+                    <br/>
+                    Developed new equations for dual pump dyeing machines with computer iteration and fluid dynamics; Built fluid models in simulations
                 </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
+                
             </ul>
         </div>
         <!-- End .education-block -->
+
+        
     </div>
     <!-- End #education -->
 
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-            </div>
-        </div>
-    </div>
-    <!-- End #projects -->
+    
 
     <div id="skills">
         <h2 class="heading">Skills</h2>
